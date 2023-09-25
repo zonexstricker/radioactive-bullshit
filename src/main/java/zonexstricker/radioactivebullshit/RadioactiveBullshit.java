@@ -20,6 +20,7 @@ public class RadioactiveBullshit implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     public static final Item uraniumRaw = ItemHelper.createItem(MOD_ID, new Item(32750),"uraniumRaw", "uranium_raw.png");
+    public static final Item geigerCounter = ItemHelper.createItem(MOD_ID, new Item(32751),"geigerCounter", "geiger_counter.png");
     @Override
     public void onInitialize() {
         LOGGER.info("ExampleMod initialized.");
